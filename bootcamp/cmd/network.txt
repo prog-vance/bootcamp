@@ -1,0 +1,79 @@
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : Mavy_hp
+   Primary Dns Suffix  . . . . . . . : 
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+
+Ethernet adapter Ethernet 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : ExpressVPN TAP Adapter
+   Physical Address. . . . . . . . . : 00-FF-F1-0C-9D-73
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Unknown adapter Local Area Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : ExpressVPN TUN Driver
+   Physical Address. . . . . . . . . : 
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter
+   Physical Address. . . . . . . . . : 2E-3B-70-DC-2A-A9
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Local Area Connection* 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter #2
+   Physical Address. . . . . . . . . : 2E-3B-70-DC-2A-B9
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : MediaTek MT7921 Wi-Fi 6 802.11ax PCIe Adapter
+   Physical Address. . . . . . . . . : 2C-3B-70-DC-2A-F9
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   IPv6 Address. . . . . . . . . . . : 2001:4455:677:7b00::1(Preferred) 
+   Lease Obtained. . . . . . . . . . : Thursday, 9 November 2023 8:11:48 am
+   Lease Expires . . . . . . . . . . : Sunday, 12 November 2023 8:11:48 am
+   IPv6 Address. . . . . . . . . . . : 2001:4455:677:7b00:8efe:fa04:9d0:3571(Preferred) 
+   Temporary IPv6 Address. . . . . . : 2001:4455:677:7b00:7875:e89:8fce:5558(Preferred) 
+   Link-local IPv6 Address . . . . . : fe80::bfbe:2522:4780:acf9%6(Preferred) 
+   IPv4 Address. . . . . . . . . . . : 192.168.1.56(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : Wednesday, 8 November 2023 8:39:54 am
+   Lease Expires . . . . . . . . . . : Friday, 10 November 2023 8:11:46 am
+   Default Gateway . . . . . . . . . : fe80::1%6
+                                       192.168.1.1
+   DHCP Server . . . . . . . . . . . : 192.168.1.1
+   DHCPv6 IAID . . . . . . . . . . . : 86784880
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-2B-A6-3E-30-0C-37-96-65-E2-A9
+   DNS Servers . . . . . . . . . . . : fe80::1%6
+                                       192.168.1.1
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Ethernet adapter Bluetooth Network Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Bluetooth Device (Personal Area Network)
+   Physical Address. . . . . . . . . : 2C-3B-70-DC-2A-F8
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes

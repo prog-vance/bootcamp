@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ISCP Employee Registration Form</title>
+  </head>
+  <body>
+    <form>
+      <h1>ISCP Employee Registration Form</h1>
+
+      <img
+        src="https://upload.wikimedia.org/wikipedia/en/c/c9/Seal_of_the_International_State_College_of_the_Philippines.png"
+        alt="ISCP logo"
+        width="100px"
+      />
+      <br />
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/aCUhfPAyDHY?si=CQPtrtqbsgicwm8N"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe
+      ><br />
+
+      <h2>basic information</h2>
+
+      <label for="first_name">First name: </label>
+      <input type="text" placeholder="first Name" id="first_name" /><br />
+
+      <label for="last">Last name: </label>
+      <input type="text" placeholder="Last Name" id="last" /><br />
+
+      <label for="birth">Place of Birth: </label>
+      <input type="text" placeholder="Place of Birth" id="birth" /><br />
+
+      <label for="birthdate">Birthdate: </label>
+      <input type="date" id="birthdate" /><br />
+
+      <label for="status">Civil Status:</label>
+      <select name="civil_status" id="status">
+        <option value="select" disabled>Select one</option>
+        <option value="select" disabled>   </option>
+        <option value="single">Single</option>
+        <option value="married">Married</option>
+        <option value="separated">Separated</option>
+        <option value="widowed">Widowed</option> <br>
+<!--mali-->
+<label for="Gender">Gender:</label>
+<select name="Gender" id="Gender">
+  <option value="select" disabled>Select one</option>
+  <option value="select" disabled>   </option>
+  <option value="male">male</option>
+  <option value="female">female</option>
+  <option value="other">other</option><br>
+
+  <span>Gender</span>
+  
+  <input type="radio" name="gender" id="male" value="male">
+  <label for="male">Male</label>
+
+  <input type="radio" name="gender" id="female" value="female">
+  <label for="female">female</label><br>
+
+        <label for="maiden">Mother's Maiden Name: </label>
+      <input type="mother_maiden" id="maiden" /><br />
+
+      <label for="father">Father's Name: </label>
+      <input type="father" id="father" /><br />
+
+      <h2>Contact Information</h2>
+
+      <label for="email">Email address: </label>
+      <input
+        type="email"
+        placeholder="XXXXXXXXX@gmail.com"
+        id="email"
+      /><br />
+
+      <label for="mobile">Contact Number:</label>
+      <input
+        type="text"
+        id="mobile"
+        placeholder="mobile #" /><br />
+
+        <label for="telephone">Contact Number:</label>
+      <input
+        type="text"
+        id="telephone"
+        placeholder="telephone #" /><br />
+
+        <h2>Address</h2>
+
+        <label for="street">street number: </label>
+      <input type="text" id="street" /><br />
+
+      <label for="street1">street Name: </label>
+      <input type="text" id="street1" /><br />
+
+      <label for="b">barangay: </label>
+      <input type="text" id="b" /><br />
+
+      <label for="2">city/town: </label>
+      <input type="text" id="2" /><br />
+
+      <label for="3">province: </label>
+      <input type="text" id="3" /><br />
+
+      <label for="4">full address: </label>
+      <input type="text" id="4" /><br />
+
+
+
+
+
+
+
+
+
+      <h2>Government Information</h2>
+
+      <label for="5">SSS I.D: </label>
+      <input type="text" id="5" /><br />
+      <label for="6">pag-ibig I.D: </label>
+      <input type="text" id="6" /><br />
+      <label for="7">philhealth I.D: </label>
+      <input type="text" id="7" /><br />
+      
+      <label for="pic"> Upload  2x2 picture: </label>
+      <input type="file" id="pic" /><br />
+
+      <label for="pic1"> Upload picture of government ID: </label>
+      <input type="file" id="pic1" /><br />
+
+
+      <h2>Account Information</h2>
+
+      <label for="user_name">username: </label>
+      <input type="text" placeholder="username" id="user_name" /><br />
+
+      <label for="pw">Password: </label>
+      <input
+        type="password"
+        placeholder="at least 6 characters"
+        id="pw"
+      /><br />
+
+      <label for="pic2"> Upload profile picture: </label>
+      <input type="file" id="pic2" /><br />
+
+      
+
+
+
+
+      <h2>Have you experience of the following in the last 30 days?</h2>
+     
+      <input id="yes" name="answer" type="radio">
+<label for="yes" >yes</label>
+<br>
+<input id="no" name="answer" type="radio">
+<label for="no">No</label>
+<br>
+
+
+      <h2>Give me a short descriptionabout yourself</h2>
+      <textarea cols="30" rows="10" maxlength="20">default value</textarea><br>
+
+      <input type="submit">
+    </form>
+  </body>
+</html>

@@ -1,0 +1,122 @@
+body {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  margin: 0px;
+  background-image: url("backgroudcss.webp");
+  background-attachment: fixed;
+}
+
+#overlay {
+  margin: 0 50px;
+}
+
+#nav-bar {
+  background-color: rgb(70, 130, 180);
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 10px 50px 10px 50px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(70, 130, 180);
+}
+li {
+  float: right;
+
+  margin: 0px 50px 0px 50px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li:hover {
+  background-color: rgb(0, 0, 139);
+}
+
+#banner {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#ministries-section {
+  text-align: center;
+}
+
+#ministries-text {
+  color: rgb(70, 130, 180);
+  font-size: 250%;
+}
+
+#free-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+#free-section a:visited {
+  background-color: blue;
+}
+#free-image {
+  width: 350px;
+  margin-right: 20px;
+}
+
+#free-title {
+  font-size: 200%;
+  color: rgb(70, 130, 180);
+}
+
+#free-action {
+  margin-bottom: 50px;
+}
+
+#free-link {
+  color: rgb(255, 0, 216);
+  font-size: 200%;
+}
+
+#other-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 20px;
+}
+
+#other-center {
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+#other-center:nth-child(odd) {
+  background-color: white;
+}
+
+#other-title {
+  font-size: 100%;
+  margin: 0px;
+}
+
+#other-list {
+  list-style-position: inside;
+}
+
+footer {
+  margin-top: 50px;
+  text-align: center;
+  color: rgb(160, 160, 160);
+}
+
+.footer-link {
+  color: rgb(160, 160, 160);
+}
+
+#footer-bottom {
+  font-size: 75%;
+}
